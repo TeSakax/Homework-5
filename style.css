@@ -7,9 +7,60 @@
 }
 header{
     background-color: #0020F4;
-    width: 1920px;
     height: 387.56px;
 }
-header ul li a{
+header ul li{
+    margin-top: 10px;
+}
+header ul li:first-child{
+    border-bottom: 1px solid black;
+    width: 60px
+}
+header ul li:last-child a{
+    background-color: white;
+    color: #171717;
+    padding: 4px;
+    border-radius: 20px;
+}
+header a{
     color: #FFFFFF;
+}
+main section img{
+    height: 600px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+section h1{
+    margin-left: 60px;
+}
+article a {
+    background-color: #0020F4;
+    color: #FFFFFF;
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 60px;
+}
+.collage img{
+    width: 219px;
+    height: 219px;
+}
+article p{
+    margin-top: 25px;
+}
+footer{
+    height: 480px;
+    background-color: #0020F4;
+    color: #FFFFFF;
+}
+footer address h2{
+    margin-top: 90px;
+}
+footer address p{
+    margin-top: 90px;
+}
+footer address img {
+    margin-top: 90px;
+}
+footer address span{
+    margin-top: 90px;
 }
